@@ -1,0 +1,115 @@
+.section_container{
+   gap: 0px;
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_landing {
+    
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+
+.h1_container{
+    background-image: url(../ASSETS/fotoinicial.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 300px;
+    text-align: center;
+    color:white;
+    
+
+
+}
+.h1_container h1 {
+    background-color: transparent;
+    -webkit-animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.h1_container a {
+    background-color: lightblue; /* Green */
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.section_2{
+  padding: 2px;
+  margin: 0px;
+    background-color: grey;
+    color: white;
+    box-shadow: 1px 1px 1px black;
+}
+
+.section_2 img{
+ -webkit-animation: scale-in-hor-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: scale-in-hor-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+   height: 250px;
+   width: 250px;
+   object-fit: cover; 
+   margin: 10px;
+}
+
+.section_2 h1{
+    -webkit-animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+
+
+.hero_section{
+   display:flex;
+   align-items:center ;
+    width: 100%;
+   
+}
+
+.hero_section img{
+    display: flex;
+    width: 100%;
+}
+ 
+@-webkit-keyframes tracking-in-expand-fwd {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px);
+              transform: translateZ(-700px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand-fwd {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px);
+              transform: translateZ(-700px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  

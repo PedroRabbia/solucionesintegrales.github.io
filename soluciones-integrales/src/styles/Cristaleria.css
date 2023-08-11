@@ -1,0 +1,79 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas con el mismo ancho */
+    grid-template-rows: repeat(2, 1fr); /* 2 filas con la misma altura */
+    gap: 0px; /* Espacio entre las celdas */
+   
+}
+.container_h1{ 
+    
+    background-color:grey;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    text-align: center;
+    height: 10%;
+    width: 50% 50%;
+    color:white;
+
+}
+
+.aberturas{
+    background-image: url("../ASSETS/CRISTALERIA.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    padding: 50px; 
+    text-align: center;
+    color:white;
+
+}
+
+.cristaleria{
+    background-image: url("../ASSETS/CRISTALERIA.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 30px;
+    padding: 200px;
+    text-align: center;
+    color:white;
+}
+
+.cristaleria a{
+    background-color: lightblue; /* Green */
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.interior{
+    
+    background-image: url("../ASSETS/interior.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 30px;
+    padding: 200px;
+    text-align: center;
+    color:white;
+}
+
+ .link{
+    background-color: lightblue; /* Green */
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
